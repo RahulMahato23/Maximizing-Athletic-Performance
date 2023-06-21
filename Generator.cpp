@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1); // Initialize the random number generator
 
     int n = rnd.next(1, 100000); // Randomly generate 'n' between 1 and 10

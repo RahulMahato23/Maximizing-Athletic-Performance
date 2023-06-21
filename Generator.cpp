@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
     cout << n << endl;
 
     for (int i = 0; i < n; i++) {
-        int ai = rnd.next(-1000000000, 100000000000); // Randomly generate 'ai' between -100 and 100
+        long long ai = rnd.next(-1000000000LL, 100000000000LL); // Randomly generate 'ai' between -100 and 100
         cout << ai;
         if (i != n - 1) {
             cout << " ";

@@ -23,27 +23,27 @@ Your task is to write a program that takes in an integer n, representing the num
 
 ## Examples
 ### Example 1:
-Input: 5
-        9 -2 6 3 1
-Output: 16
+Input: 5<br>
+       9 -2 6 3 1<br>
+Output: 16<br>
 Explanation: The maximum cumulative performance score is achieved by participating in events with scores [9, 6, 1]. The sum of these scores is 16.
 
 ### Example 2:
-Input: 6
-        4 2 -8 5 1 9
-Output: 18
+Input: 6<br>
+       4 2 -8 5 1 9<br>
+Output: 18<br>
 Explanation: The maximum cumulative performance score is achieved by participating in events with scores [4, 5, 9]. The sum of these scores is 18.
 
 ### Example 3:
-Input: 6
-        -7 5 2 1 -6 4
-Output: 10
+Input: 6<br>
+       -7 5 2 1 -6 4<br>
+Output: 10<br>
 Explanation: The maximum cumulative performance score is achieved by participating in events with scores [5, 1, 4]. The sum of these scores is 10.
 
 ### Example 4:
-Input: 4
-        -3 -2 -4 -5
-Output: 0
+Input: 4<br>
+       -3 -2 -4 -5<br>
+Output: 0<br>
 Explanation: In this case, all performance scores are negative. As no positive scores are available, the maximum possible cumulative performance score is 0, indicating that the athlete did not participate in any event.
 
 Note: The athlete can choose non-adjacent events to maximize their cumulative performance score. Your task is to implement a program efficiently to solve the problem and find the maximum possible cumulative performance score. It is guaranteed that there will be at least one event, and the minimum possible output is 0 in case of all negative performance scores.
